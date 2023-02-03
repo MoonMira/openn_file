@@ -32,37 +32,6 @@ def get_shop_list_by_dishes(dishes, person_count):
 
 #print(get_shop_list_by_dishes(['Запеченный картофель', 'Омлет'], 4))
 
-# def open_file(name_file):
-#     new_dict = {}
-#     dict_text = {}
-#     name_txt = name_file
-#     result = {}
-#     with open (name_file, 'r', encoding='utf-8') as file:
-#         len_line = 0
-#         text_line = []
-#         for line in file:
-#             len_line += 1
-#             text_line.append(line)
-#             new_dict[name_txt] = len_line
-#         dict_text.setdefault(name_txt, len_line)
-#     sorted_dict = sorted(dict_text, key=dict_text.get)
-#     for w in sorted_dict:
-#         result[w] = new_dict[w]
-#     return result
-#
-# #print(open_file('1.txt'), open_file('2.txt'), open_file('3.txt'))
-#
-# def new_file(dict_one):
-#     with open('newfile.txt', 'w', encoding='utf-8') as file:
-#         for names, numbers in dict_one.items():
-#             file.write(names + '\n')
-#             file.write(str(numbers) + '\n')
-#             with open(names,'r', encoding='utf-8') as f:
-#                 res = f.readlines()
-#     return res
-#
-# print(new_file(open_file('1.txt')), new_file(open_file('2.txt')), new_file(open_file('3.txt')))
-
 result_dict = {}
 
 def open_file():
